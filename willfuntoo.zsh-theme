@@ -1,5 +1,5 @@
 
-local lambda='%{$fg[yellow]%}☃ %{$fg_bold[blue]%}λ %{$fg_bold[green]%}$%{$reset_color%}'
+local lambda='%{$fg_bold[yellow]%}⚡ %{$fg_bold[blue]%}λ %{$fg_bold[green]%}$%{$reset_color%}'
 local git_branch='%{$fg_bold[blue]%}$(git_prompt_info)%{$reset_color%}'
 
 PROMPT="%{$fg_bold[green]%}%~ ${git_branch}
